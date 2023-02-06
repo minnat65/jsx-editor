@@ -1,0 +1,2 @@
+(this["webpackJsonpjsx-editor"]=this["webpackJsonpjsx-editor"]||[]).push([[239],{407:function(s,n){Prism.languages.jsonp=Prism.languages.extend("json",{punctuation:/[{}[\]();,.]/}),Prism.languages.insertBefore("jsonp","punctuation",{function:/(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*\()/})}}]);
+//# sourceMappingURL=239.e0c91fe2.chunk.js.map

@@ -1,0 +1,2 @@
+(this["webpackJsonpjsx-editor"]=this["webpackJsonpjsx-editor"]||[]).push([[356],{524:function(t,n){Prism.languages.properties={comment:/^[ \t]*[#!].*$/m,"attr-value":{pattern:/(^[ \t]*(?:\\(?:\r\n|[\s\S])|[^\\\s:=])+(?: *[=:] *(?! )| ))(?:\\(?:\r\n|[\s\S])|[^\\\r\n])+/m,lookbehind:!0},"attr-name":/^[ \t]*(?:\\(?:\r\n|[\s\S])|[^\\\s:=])+(?= *[=:]| )/m,punctuation:/[=:]/}}}]);
+//# sourceMappingURL=356.693f6b76.chunk.js.map
