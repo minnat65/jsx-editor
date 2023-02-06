@@ -2,8 +2,8 @@ import './code-editor.css';
 import './syntax.css';
 import { useRef } from 'react';
 import MonacoEditor, { EditorDidMount } from '@monaco-editor/react';
-import prettier from 'prettier';
-import parser from 'prettier/parser-babel';
+// import prettier from 'prettier';
+// import parser from 'prettier/parser-babel';
 import codeShift from 'jscodeshift';
 import Highlighter from 'monaco-jsx-highlighter';
 
@@ -42,16 +42,16 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
     const unformatted = editorRef.current.getModel().getValue();
 
     // format the current value
-    const formatted = prettier.format(unformatted, {
-      parser: 'babel',
-      plugins: [parser],
-      useTabs: false,
-      semi: true,
-      singleQuote: true,
-    }).replace(/\n$/, '');
+    // const formatted = prettier.format(unformatted, {
+    //   parser: 'babel',
+    //   plugins: [parser],
+    //   useTabs: false,
+    //   semi: true,
+    //   singleQuote: true,
+    // }).replace(/\n$/, '');
 
     // set the new formatted value into editor
-    editorRef.current.setValue(formatted);
+    editorRef.current.setValue('');
   }
 
   return (
