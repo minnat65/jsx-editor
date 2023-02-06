@@ -23,10 +23,13 @@ const Counter = () => {
 show(<Counter />);
 `;
 
-const defaultTextContent = `
-use show() method to display something on preview window.
-
-eg: <h1>Text Editor...</h1>
+const defaultTextContent =
+`# use show() method to display something on preview window.
+- User can import & use any package from npm.js
+- Code can be shared from one code editor to another.
+- User can run any JS / JSX code inside the code editor
+- They can see a preview of JSX in the preview section.
+- Text Editor can help to add some helper text.
 `;
 
 interface CellsState {

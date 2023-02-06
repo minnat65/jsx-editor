@@ -56,12 +56,12 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
 
   return (
     <div className='editor-wrapper'>
-      <button
+      {/* <button
         className='button button-format is-primary is-small'
         onClick={formatHandler}
       >
         Format
-      </button>
+      </button> */}
     <MonacoEditor
       editorDidMount={onEditorDidMount}
       value={initialValue}
